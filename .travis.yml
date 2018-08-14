@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $heroku-api
+    secure: $HEROKU_API_KEY
   app: eduacme
